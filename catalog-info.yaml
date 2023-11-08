@@ -1,0 +1,14 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: deploy-vm-summit
+  description: deply-vm-summit2024
+  annotations:
+    backstage.io/kubernetes-id: deploy-vm-summit
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: neenspa/deploy-vm-summit
+spec:
+  type: api
+  lifecycle: production
+  owner: amargheritini
